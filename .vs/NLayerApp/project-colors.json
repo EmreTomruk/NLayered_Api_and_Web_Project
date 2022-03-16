@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6c05ce67-f79b-40f2-b9ee-92238bdaad0c": {
+      "ProjectGuid": "6c05ce67-f79b-40f2-b9ee-92238bdaad0c",
+      "DisplayName": "NLayer.Core",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -9,3 +9,4 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Cach
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\ref\NLayer.Caching.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.AssemblyReference.cache

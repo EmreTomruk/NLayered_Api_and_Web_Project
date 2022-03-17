@@ -1,4 +1,5 @@
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.deps.json
+C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\bin\Debug\net6.0\ref\NLayer.Repository.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.pdb
@@ -13,3 +14,4 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.R
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\obj\Debug\net6.0\ref\NLayer.Repository.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.genruntimeconfig.cache

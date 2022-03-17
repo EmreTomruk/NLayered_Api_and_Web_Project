@@ -2,6 +2,7 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.de
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\bin\Debug\net6.0\ref\NLayer.Core.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.AssemblyReference.cache
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfoInputs.cache
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.cs
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\ref\NLayer.Core.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.pdb
-C:\Users\user\source\Repos\NLayerApp\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.AssemblyReference.cache

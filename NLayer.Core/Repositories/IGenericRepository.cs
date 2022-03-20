@@ -9,7 +9,7 @@ namespace NLayer.Core.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {
-        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAll();
         Task<T> GetByIdAsync(int id);
         IQueryable<T> Where(Expression<Func<T, bool>> expression); //Burada DB'ye sorgu yapmiyoruz sadece DB'ye yapilacak olan sorgu olusturuyoruz. Bunun icin Asenkron kullanilmadi...
         Task<bool> AnyAsync(Expression<Func<T, bool>> expression);

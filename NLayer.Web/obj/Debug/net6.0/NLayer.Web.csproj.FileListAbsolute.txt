@@ -63,3 +63,5 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\ref\NLayer.Web.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.pdb
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.genruntimeconfig.cache
+C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

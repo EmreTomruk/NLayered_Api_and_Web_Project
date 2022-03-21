@@ -13,11 +13,12 @@ namespace NLayer.Repository.Repositories
     {
         public ProductRepository(AppDbContext context) : base(context)
         {
+
         }
 
-        public async Task<List<Product>> GetProductsWithCategory() 
+        public async Task<List<Product>> GetProductsWithCategoryAsync() 
         {
-            return await _context.Products.Include(x => x.Category).ToListAsync(); ; 
+            return await _context.Products.Include(x => x.Category).ToListAsync(); 
         }
     }
 }

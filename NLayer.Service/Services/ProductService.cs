@@ -15,22 +15,21 @@ namespace NLayer.Service.Services
     public class ProductService : Service<Product>, IProductService
     {
         private readonly IProductRepository _productRepository;
-        private readonly IMapper _mapper;
-
+        //private readonly IMapper _mapper;
 
         public ProductService(IGenericRepository<Product> repository, IUnitOfWork unitOfWork, 
-            IProductRepository productRepository, IMapper mapper) : base(repository, unitOfWork)
+            IProductRepository productRepository, IMapper mapper) : base(repository, unitOfWork, mapper)
         {
             _productRepository = productRepository;
-            _mapper = mapper;
+            //_mapper = mapper;
         }
 
-        public async Task<CustomResponseDto<List<ProductWithCategoryDto>>> GetProductsWithCategory()
+        public async Task<CustomResponseDto<List<ProductsWithCategoryDto>>> GetProductsWithCategoryAsync()
         {
-            var products = await _productRepository.GetProductsWithCategory();
-            var productsDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
+            var products = await _productRepository.GetProductsWithCategoryAsync();
+            var productsDto = _mapper.Map<List<ProductsWithCategoryDto>>(products);
 
-            return CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsDto);
+            return CustomResponseDto<List<ProductsWithCategoryDto>>.Success(200, productsDto);
         }
     }
 }

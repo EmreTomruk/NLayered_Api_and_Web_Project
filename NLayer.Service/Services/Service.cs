@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using NLayer.Core.DTOs;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
@@ -16,11 +17,13 @@ namespace NLayer.Service.Services
     {
         private readonly IGenericRepository<T> _repository;
         private readonly IUnitOfWork _unitOfWork;
+        protected readonly IMapper _mapper;
 
-        public Service(IGenericRepository<T> repository, IUnitOfWork unitOfWork)
+        public Service(IGenericRepository<T> repository, IUnitOfWork unitOfWork, IMapper mapper)
         {
             _repository = repository;
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         public async Task<T> AddAsync(T entity)

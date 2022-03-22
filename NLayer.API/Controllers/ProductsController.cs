@@ -8,11 +8,12 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
 {
+    //[ValidateFilterAttribute]
     public class ProductsController : CustomBaseController
     {
         private readonly IProductService _productService;
 
-        public ProductsController(IProductService productService, IMapper mapper) :  base(mapper)
+        public ProductsController(IProductService productService, IMapper mapper) : base(mapper)
         {
             _productService = productService;
         }
@@ -25,7 +26,7 @@ namespace NLayer.API.Controllers
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
-        {
+        { 
             var products = await _productService.GetAllAsync();
             var productsDto = _mapper.Map<List<ProductDto>>(products.ToList());
 
@@ -33,6 +34,7 @@ namespace NLayer.API.Controllers
             //return Ok(CustomResponseDto<List<ProductDto>>.Success(200, productsDto));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")]//www.mysite.com/api/products/5 Bu attribute yazilmazsa id bilgisini query string'e yazmamiz gerekecekti(/api/products?id=5)...
         public async Task<IActionResult> GetById(int id)
         {

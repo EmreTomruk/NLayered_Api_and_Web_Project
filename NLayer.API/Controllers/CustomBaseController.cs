@@ -16,7 +16,7 @@ namespace NLayer.API.Controllers
         }
 
         [NonAction]
-        public IActionResult CreateActionResult<T>(CustomResponseDto<T> response) //Bu metod sayesinde OK(), BadRequest(), NoContent() gibi metodlari yazmaktan kurtuluruz...
+        public IActionResult CreateActionResult<T>(CustomResponseDto<T> response) //Bu metod sayesinde OK(), BadRequest(), NoContent() gibi metodlari yazmaya gerek kalmiyor...
         {
             if (response.StatusCode == 204)
                 return new ObjectResult(null)

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tn1she8nifEswToCm2MHlLPdkHsI0gk1NUGb2rW2rwPPk1c9q7QR1H77bwMCInwxvzgevRETgYqbjbzrRzgYrg==",
+  "dgSpecHash": "kuL9QARR+5qZpn3in69mizyMpBeogNiT/EEHGX2V3wBC5ZWWC0wQBwWFQAv1VxBbWkGMKBds06r8+Wg8jpE2hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",

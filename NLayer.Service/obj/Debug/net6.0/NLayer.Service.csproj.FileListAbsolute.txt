@@ -1,6 +1,5 @@
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\NLayer.Service.deps.json
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\NLayer.Service.dll
-C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\ref\NLayer.Service.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\NLayer.Service.pdb
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\NLayer.Core.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\bin\Debug\net6.0\NLayer.Repository.dll
@@ -15,3 +14,4 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Service\obj\Debug\net6.0\NLayer.Serv
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\obj\Debug\net6.0\NLayer.Service.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\obj\Debug\net6.0\ref\NLayer.Service.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Service\obj\Debug\net6.0\NLayer.Service.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Service\obj\Debug\net6.0\refint\NLayer.Service.dll

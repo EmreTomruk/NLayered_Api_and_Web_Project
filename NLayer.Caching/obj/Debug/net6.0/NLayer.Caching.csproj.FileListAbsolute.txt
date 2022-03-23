@@ -1,6 +1,5 @@
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.deps.json
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.dll
-C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\ref\NLayer.Caching.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.pdb
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.AssemblyReference.cache
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,11 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Cach
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\ref\NLayer.Caching.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\refint\NLayer.Caching.dll
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Repository.dll
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Service.dll
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Service.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\bin\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\user\source\Repos\NLayerApp\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.CopyComplete

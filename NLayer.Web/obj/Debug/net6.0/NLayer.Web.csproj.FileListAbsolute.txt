@@ -5,7 +5,6 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.exe
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.deps.json
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.runtimeconfig.json
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.dll
-C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\ref\NLayer.Web.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\NLayer.Web.pdb
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -69,3 +68,4 @@ C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidatio
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\Repos\NLayerApp\NLayer.Web\obj\Debug\net6.0\refint\NLayer.Web.dll

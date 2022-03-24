@@ -7,12 +7,7 @@ using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
 using NLayer.Service.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NLayer.Caching
 {
@@ -32,7 +27,7 @@ namespace NLayer.Caching
             _mapper = mapper;
             _memoryCache = memoryCache;
 
-            if(!_memoryCache.TryGetValue(CacheProductKey, out _)) //Sadece cache key'ine sahip data var mi, onu ogrenmeye calisiyoruz. Cache'teki data'yi almak istemiyoruz-memory'de allocate etmesin-. O yuzden "_" kullandik...
+            if (!_memoryCache.TryGetValue(CacheProductKey, out _)) //Sadece cache key'ine sahip data var mi, onu ogrenmeye calisiyoruz. Cache'teki data'yi almak istemiyoruz-memory'de allocate etmesin-. O yuzden "_" kullandik...
                 _memoryCache.Set(CacheProductKey, _productRepository.GetProductsWithCategoryAsync().Result); //Result property ile Asenkronu senkrona cevirdim...
         }
 
@@ -42,7 +37,7 @@ namespace NLayer.Caching
             await _unitOfWork.CommitAsync();
             await CacheAllProductsAsync();
 
-            return entity; 
+            return entity;
         }
 
         public async Task<IEnumerable<Product>> AddRangeAsync(IEnumerable<Product> entities)
@@ -51,7 +46,7 @@ namespace NLayer.Caching
             await _unitOfWork.CommitAsync();
             await CacheAllProductsAsync();
 
-            return entities; 
+            return entities;
         }
 
         public async Task<bool> AnyAsync(Expression<Func<Product, bool>> expression)
@@ -76,12 +71,12 @@ namespace NLayer.Caching
             return Task.FromResult(product); //FromResult() ile await ve async kullanmadigim icin Task degerini donebildik.
         }
 
-        public Task<CustomResponseDto<List<ProductsWithCategoryDto>>> GetProductsWithCategoryAsync() //Cok kullanilmayan datalar direkt Repodan da cekilebilir.
+        public Task<List<ProductsWithCategoryDto>> GetProductsWithCategoryAsync() //Cok kullanilmayan datalar direkt Repodan da cekilebilir.
         {
             var products = _memoryCache.Get<IEnumerable<Product>>(CacheProductKey);
             var productsWithCategoryDto = _mapper.Map<List<ProductsWithCategoryDto>>(products);
 
-            return Task.FromResult(CustomResponseDto<List<ProductsWithCategoryDto>>.Success(200, productsWithCategoryDto));
+            return Task.FromResult(productsWithCategoryDto);
         }
 
         public async Task RemoveAsync(Product entity)
@@ -106,13 +101,13 @@ namespace NLayer.Caching
         }
 
         public IQueryable<Product> Where(Expression<Func<Product, bool>> expression)
-        {        
+        {
             return _memoryCache.Get<List<Product>>(CacheProductKey).Where(expression.Compile()).AsQueryable();
         }
 
         public async Task CacheAllProductsAsync()
         {
-            _memoryCache.Set(CacheProductKey, await _productRepository.GetAll().ToListAsync()); 
+            _memoryCache.Set(CacheProductKey, await _productRepository.GetAll().ToListAsync());
         }
     }
 }

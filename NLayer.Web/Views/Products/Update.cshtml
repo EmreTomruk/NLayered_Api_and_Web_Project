@@ -1,0 +1,35 @@
+﻿@model ProductDto
+
+<h1>Update Product</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-controller="Products" asp-action="Update" method="post">
+            <input type="hidden" asp-for="Id" /> @*Bizim form alaninda gonderdigimiz ProductDto'da Id bilgisi yok. Dolayisiyla Framework'un gonderdigimiz verileri map'leyebilmesi icin Id bilgisne ihtiyaci var. Biz de onu gizli bicimde yolluyoruz...*@
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock">Stock</label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price">Price</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" >
+                <label asp-for="CategoryId">Category</label>
+                <select asp-for="CategoryId" asp-items="ViewBag.Category" class="form-control" ></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -31,7 +31,8 @@ builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerB
 
 var app = builder.Build();
 
-app.UseExceptionHandler("/Home/Error");
+app.UseExceptionHandler("/Home/Error"); //Development ortaminda bu yonlendirmeyi yapabilmek icin if blogundan cikardik...
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -40,14 +41,13 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute( name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

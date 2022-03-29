@@ -1,0 +1,496 @@
+﻿++Solution 'NLayerApp' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:NLayerApp.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++Ports.txt
+i:{b7d4d021-7634-417b-a024-203f7788a149}:C:\Users\user\source\Repos\NLayerApp\Ports.txt
+++NLayer.Core
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Core
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.core\nlayer.core.csproj
+++Dependencies
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:>384
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:>340
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:>385
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1596
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:>427
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1597
+++DTOs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\
+++BaseDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\basedto.cs
+++CategoryDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\categorydto.cs
+++CategoryWithProductsDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\categorywithproductsdto.cs
+++CustomResponseDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\customresponsedto.cs
+++NoContentDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\nocontentdto.cs
+++ProductDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\productdto.cs
+++ProductFeatureDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\productfeaturedto.cs
+++ProductsWithCategoryDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\productswithcategorydto.cs
+++ProductUpdateDto.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\dtos\productupdatedto.cs
+++Models
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\models\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\models\
+++BaseEntity.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\models\baseentity.cs
+++Category.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\models\category.cs
+++Product.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\models\product.cs
+++ProductFeature.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\models\productfeature.cs
+++Repositories
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\repositories\
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\repositories\
+++Services
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\services\
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\services\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\services\
+++ICategoryService.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\services\icategoryservice.cs
+++IProductService.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\services\iproductservice.cs
+++IService.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\services\iservice.cs
+++UnitOfWorks
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\unitofworks\
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\unitofworks\
+++IUnitOfWork.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\unitofworks\iunitofwork.cs
+++ViewModels
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\viewmodels\
+++Analyzers
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:analyzers
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:analyzers
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:analyzers
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:analyzers
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:analyzers
+i:{05412258-29d1-4400-a416-5500b1bbed49}:analyzers
+++Frameworks
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:frameworks
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:frameworks
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:frameworks
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:frameworks
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:frameworks
+i:{05412258-29d1-4400-a416-5500b1bbed49}:frameworks
+++Packages
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:packages
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:packages
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:packages
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:packages
+i:{05412258-29d1-4400-a416-5500b1bbed49}:packages
+++ICategoryRepository.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\repositories\icategoryrepository.cs
+++IGenericRepository.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\repositories\igenericrepository.cs
+++IProductRepository.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\repositories\iproductrepository.cs
+++ErrorViewModel.cs
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\viewmodels\errorviewmodel.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:c:\users\user\source\repos\nlayerapp\nlayer.core\microsoft.netcore.app
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\microsoft.netcore.app
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\microsoft.netcore.app
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\microsoft.netcore.app
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\users\user\source\repos\nlayerapp\nlayer.caching\microsoft.netcore.app
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (6.0.3)
+i:{6c05ce67-f79b-40f2-b9ee-92238bdaad0c}:>1608
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:>1662
+++NLayer.Repository
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Repository
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.repository\nlayer.repository.csproj
+++Configurations
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\configurations\
+++Migrations
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\migrations\
+++CategoryRepository.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\repositories\categoryrepository.cs
+++GenericRepository.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\repositories\genericrepository.cs
+++ProductRepository.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\repositories\productrepository.cs
+++Seeds
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\seeds\
+++UnitOfWork.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\unitofworks\unitofwork.cs
+++AppDbContext.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\appdbcontext.cs
+++Projects
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:projects
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:projects
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:projects
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:projects
+i:{05412258-29d1-4400-a416-5500b1bbed49}:projects
+++CategoryConfiguration.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\configurations\categoryconfiguration.cs
+++ProductConfiguration.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\configurations\productconfiguration.cs
+++ProductFeatureConfiguration.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\configurations\productfeatureconfiguration.cs
+++20220317171402_InitialCreate.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\migrations\20220317171402_initialcreate.cs
+++AppDbContextModelSnapshot.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\migrations\appdbcontextmodelsnapshot.cs
+++CategorySeed.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\seeds\categoryseed.cs
+++ProductSeed.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\seeds\productseed.cs
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.3)
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:>1663
+++Microsoft.EntityFrameworkCore.Tools (6.0.3)
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:>1664
+++20220317171402_InitialCreate.Designer.cs
+i:{802cde61-cdc3-40e3-8a20-802634bfaee5}:c:\users\user\source\repos\nlayerapp\nlayer.repository\migrations\20220317171402_initialcreate.designer.cs
+++NLayer.Service
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Service
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\users\user\source\repos\nlayerapp\nlayer.service\nlayer.service.csproj
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.service\nlayer.service.csproj
+++Exceptions
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\exceptions\
+++ClientSideException.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\exceptions\clientsideexception.cs
+++NotFoundException.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\exceptions\notfoundexception.cs
+++Mapping
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\mapping\
+++MapProfile.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\mapping\mapprofile.cs
+++CategoryService.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\services\categoryservice.cs
+++ProductService.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\services\productservice.cs
+++Service.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\services\service.cs
+++Validations
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\validations\
+++ProductDtoValidator.cs
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\users\user\source\repos\nlayerapp\nlayer.service\validations\productdtovalidator.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:>1652
+++FluentValidation.AspNetCore (10.4.0)
+i:{a07c86ba-30e6-468e-bc6d-61d3a70fff7b}:>1653
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1620
+++NLayer.API
+i:{00000000-0000-0000-0000-000000000000}:NLayer.API
+++Connected Services 
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1598
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1600
+++Properties
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\properties\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\properties\
+++Controllers
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\controllers\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\controllers\
+++CategoriesController.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\controllers\categoriescontroller.cs
+++CustomBaseController.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\controllers\custombasecontroller.cs
+++ProductsController.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\controllers\productscontroller.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\controllers\productscontroller.cs
+++WeatherForecastController.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\controllers\weatherforecastcontroller.cs
+++Filters
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\filters\
+++NotFoundFilter.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\filters\notfoundfilter.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\notfoundfilter.cs
+++ValidateFilterAttribute.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\filters\validatefilterattribute.cs
+++Middlewares
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\middlewares\
+++UseCustomExceptionHandler.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\middlewares\usecustomexceptionhandler.cs
+++Modules
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\modules\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\modules\
+++OtherModule.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\modules\othermodule.cs
+++RepoServiceModule.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\modules\reposervicemodule.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\modules\reposervicemodule.cs
+++appsettings.json
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\appsettings.json
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\appsettings.json
+++Program.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\program.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\program.cs
+++WeatherForecast.cs
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\weatherforecast.cs
+++No service dependencies discovered
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1599
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1601
+++launchSettings.json
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\properties\launchsettings.json
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\properties\launchsettings.json
+++appsettings.Development.json
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\appsettings.development.json
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.api\microsoft.aspnetcore.app
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\microsoft.aspnetcore.app
+++Autofac.Extensions.DependencyInjection (7.2.0)
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1634
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1619
+++Microsoft.EntityFrameworkCore.Design (6.0.3)
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1635
+++Swashbuckle.AspNetCore (6.2.3)
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:>1636
+++NLayer.Caching
+i:{4d82f699-b686-43cc-abea-40f475e339b0}:c:\users\user\source\repos\nlayerapp\nlayer.caching\nlayer.caching.csproj
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Caching
+++ProductServiceWithCaching.cs
+i:{550deabd-756f-4d72-a925-37ccba3823d3}:c:\users\user\source\repos\nlayerapp\nlayer.caching\productservicewithcaching.cs
+++NLayer.Web
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Web
+++wwwroot
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\
+++HomeController.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\controllers\homecontroller.cs
+++CategoryApiService.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\services\categoryapiservice.cs
+++ProductApiService.cs
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\services\productapiservice.cs
+++Views
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\
+++Home
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\home\
+++Products
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\products\
+++Index.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\products\index.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\home\index.cshtml
+++Save.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\products\save.cshtml
+++Update.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\products\update.cshtml
+++Shared
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\shared\
+++_ViewImports.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\_viewstart.cshtml
+++css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\css\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\js\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\
+++favicon.ico
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\favicon.ico
+++Privacy.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\shared\error.cshtml
+++MessagePackAnalyzer
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{05412258-29d1-4400-a416-5500b1bbed49}:>1621
+++site.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\css\site.css
+++site.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\js\site.js
+++bootstrap
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\
+++jquery
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\
+++jquery-validation
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\views\shared\_layout.cshtml.css
+++dist
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\dist\
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\license.txt
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{05412258-29d1-4400-a416-5500b1bbed49}:c:\users\user\source\repos\nlayerapp\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

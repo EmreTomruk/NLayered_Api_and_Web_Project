@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NLayer.API.Filters;
@@ -8,14 +9,15 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
 {
+    [Authorize]
     //[ValidateFilterAttribute]
     public class ProductsController : CustomBaseController
     {
         private readonly IProductService _service;
 
-        public ProductsController(IProductService productService, IMapper mapper) : base(mapper)
+        public ProductsController(IProductService service, IMapper mapper) : base(mapper)
         {
-            _service = productService;
+            _service = service;
         }
 
         [HttpGet("[action]")]//www.mysite.com/api/products/GetProductsWithCategory

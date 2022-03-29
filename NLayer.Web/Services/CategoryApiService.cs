@@ -17,12 +17,5 @@ namespace NLayer.Web.Services
 
             return response.Data;
         }
-
-        //public async Task<List<CategoryDto>> GetByIdAsync()
-        //{
-        //    var response = await _httpClient.GetFromJsonAsync<CustomResponseDto<List<CategoryDto>>>("categories");
-
-        //    return response.Data;
-        //}
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NLayer.Core.DTOs;
@@ -8,6 +9,7 @@ using NLayer.Web.Services;
 
 namespace NLayer.Web.Controllers
 {
+    //[Authorize]
     public class ProductsController : Controller
     {
         private readonly ProductApiService _productApiService;
@@ -25,6 +27,7 @@ namespace NLayer.Web.Controllers
         //    _mapper = mapper;
         }
 
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             return View((await _productApiService.GetProductsWithCategoryAsync()));
@@ -38,7 +41,7 @@ namespace NLayer.Web.Controllers
 
             return View();
         }
-
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Save(ProductDto productDto)
         {
@@ -83,7 +86,7 @@ namespace NLayer.Web.Controllers
 
             return View(productDto);
         }
-
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             //var product = await _productApiService.GetByIdAsync(id);

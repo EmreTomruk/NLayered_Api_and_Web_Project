@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+hMWvINuqDHUOMGJ1+K6sDB4T0jlVgvgRmts8OhbhZhJw4Nipkk1AL0hxjtQg0xVphZPM5ldLM5UqOHkw3GD8w==",
+  "dgSpecHash": "V4w0QXAtc9Lg9JmETezeTyyt4OPLyq1FnT/9m5tuQiWZTVbSrAeCG6ncvKA2YrpSJguwd/3UYT25bI/Jd/3wvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",

@@ -105,7 +105,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 3, 17, 20, 14, 2, 160, DateTimeKind.Local).AddTicks(59),
+                            CreatedDate = new DateTime(2022, 3, 29, 17, 38, 33, 853, DateTimeKind.Local).AddTicks(7869),
                             Name = "Kalem 1",
                             Price = 100m,
                             Stock = 20m
@@ -114,7 +114,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 3, 17, 20, 14, 2, 160, DateTimeKind.Local).AddTicks(59),
+                            CreatedDate = new DateTime(2022, 3, 29, 17, 38, 33, 853, DateTimeKind.Local).AddTicks(7869),
                             Name = "Kalem 2",
                             Price = 200m,
                             Stock = 40m
@@ -123,7 +123,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2022, 3, 17, 20, 14, 2, 160, DateTimeKind.Local).AddTicks(59),
+                            CreatedDate = new DateTime(2022, 3, 29, 17, 38, 33, 853, DateTimeKind.Local).AddTicks(7869),
                             Name = "Kalem 3",
                             Price = 300m,
                             Stock = 60m
@@ -132,7 +132,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 3, 17, 20, 14, 2, 160, DateTimeKind.Local).AddTicks(59),
+                            CreatedDate = new DateTime(2022, 3, 29, 17, 38, 33, 853, DateTimeKind.Local).AddTicks(7869),
                             Name = "Kitap 1",
                             Price = 500m,
                             Stock = 20m
@@ -141,7 +141,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 5,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2022, 3, 17, 20, 14, 2, 160, DateTimeKind.Local).AddTicks(59),
+                            CreatedDate = new DateTime(2022, 3, 29, 17, 38, 33, 853, DateTimeKind.Local).AddTicks(7869),
                             Name = "Kitap 2",
                             Price = 600m,
                             Stock = 20m
@@ -192,6 +192,34 @@ namespace NLayer.Repository.Migrations
                             ProductId = 2,
                             Width = 400
                         });
+                });
+
+            modelBuilder.Entity("NLayer.Core.Models.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<bool>("Confirmation")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("NLayer.Core.Models.Product", b =>

@@ -41,7 +41,8 @@ namespace NLayer.Web.Controllers
 
             return View();
         }
-        [Authorize]
+
+        //[Authorize]
         [HttpPost]
         public async Task<IActionResult> Save(ProductDto productDto)
         {
@@ -86,7 +87,8 @@ namespace NLayer.Web.Controllers
 
             return View(productDto);
         }
-        [Authorize]
+
+        //[Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             //var product = await _productApiService.GetByIdAsync(id);

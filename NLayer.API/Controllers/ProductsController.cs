@@ -9,7 +9,7 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     //[ValidateFilterAttribute]
     public class ProductsController : CustomBaseController
     {

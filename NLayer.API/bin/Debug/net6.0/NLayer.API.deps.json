@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.3",
           "Microsoft.EntityFrameworkCore.Design": "6.0.3",
           "NLayer.Caching": "1.0.0",
+          "NLayer.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {

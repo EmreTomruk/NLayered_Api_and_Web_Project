@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj": {}
+    "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Web\\NLayer.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {
+    "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\NLayer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
+        "projectUniqueName": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\NLayer.Core.csproj",
         "projectName": "NLayer.Core",
-        "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\obj\\",
+        "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\NLayer.Core.csproj",
+        "packagesPath": "C:\\Users\\emre.tomruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\emre.tomruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,21 +64,17 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\NLayer.Repository.csproj": {
+    "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\NLayer.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\NLayer.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\NLayer.Repository.csproj",
         "projectName": "NLayer.Repository",
-        "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\NLayer.Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\obj\\",
+        "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\NLayer.Repository.csproj",
+        "packagesPath": "C:\\Users\\emre.tomruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\emre.tomruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Core\\NLayer.Core.csproj"
+              "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\NLayer.Core.csproj": {
+                "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Core\\NLayer.Core.csproj"
               }
             }
           }
@@ -150,21 +142,17 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
+    "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\NLayer.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj",
+        "projectUniqueName": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\NLayer.Service.csproj",
         "projectName": "NLayer.Service",
-        "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\obj\\",
+        "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\NLayer.Service.csproj",
+        "packagesPath": "C:\\Users\\emre.tomruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\emre.tomruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\NLayer.Repository.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Repository\\NLayer.Repository.csproj"
+              "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\NLayer.Repository.csproj": {
+                "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Repository\\NLayer.Repository.csproj"
               }
             }
           }
@@ -222,21 +210,17 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj": {
+    "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Web\\NLayer.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
+        "projectUniqueName": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Web\\NLayer.Web.csproj",
         "projectName": "NLayer.Web",
-        "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Web\\NLayer.Web.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Web\\obj\\",
+        "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Web\\NLayer.Web.csproj",
+        "packagesPath": "C:\\Users\\emre.tomruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\emre.tomruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,8 +234,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\Repos\\NLayerApp\\NLayer.Service\\NLayer.Service.csproj"
+              "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\NLayer.Service.csproj": {
+                "projectPath": "C:\\Users\\emre.tomruk\\source\\repos\\MyNTierApi\\NLayered_Api_and_Web_Project\\NLayer.Service\\NLayer.Service.csproj"
               }
             }
           }
